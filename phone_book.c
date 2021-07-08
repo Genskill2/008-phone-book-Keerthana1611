@@ -258,4 +258,4 @@ int delete(FILE *db_file, char *name) {
     else{
       prev = p;
       p = p->next;
-
+    }
