@@ -200,11 +200,11 @@ void list(FILE *db_file) {
   int count=0;
   while (p!=NULL) {
     printf("%-20s : %10s\n", p->name, p->phone);
-    count = count+1;
+    count++;
     p=p->next;
   }
   /* TBD print total count */
-  size=count:
+  size=count;
   printf("Total entries :  %d\n",count);
   free_entries(base);
 }
